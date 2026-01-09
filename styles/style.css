@@ -25,6 +25,7 @@
     cursor: pointer;
 }
 
+
 .btn3 {
     padding: 10px 5px;
     border-radius: 5px;
@@ -34,6 +35,18 @@
     font-weight: 600;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+.btn4 {
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #469165;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-bottom: 20px;
 }
 
 .btn2 {
@@ -47,6 +60,7 @@
     font-weight: 600;
     color: #FFFFFF;
     cursor: pointer;
+
 
 }
 
@@ -231,7 +245,7 @@ header {
     gap: 30px;
     align-items: center;
     justify-content: space-between;
-    border:none;
+    border: none;
 
 
 
@@ -250,7 +264,7 @@ header {
     font-size: 16px;
     font-weight: 500;
     color: #469165;
-    margin-bottom:26px;
+    margin-bottom: 26px;
 }
 
 .skill-container h2 {
@@ -260,8 +274,43 @@ header {
 }
 
 .skill-container p {
-    font-size:18px;
+    font-size: 18px;
     color: #627382;
     margin-bottom: 40px;
     line-height: 20px;
+}
+
+.requide {
+
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.requide-container {
+
+    margin-bottom: 100px;
+    text-align: center;
+    background-color: #FFF8FF;
+    border: none;
+    border-radius: 10px; padding: 50px 40px;
+
+
+}
+
+.requide-area {
+    padding: 20px 10px;
+
+
+}
+
+.requide-area h2 {
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+.requide-area p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
 }
