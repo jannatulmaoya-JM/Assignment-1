@@ -14,6 +14,13 @@
     margin: auto;
 }
 
+.btn:hover {
+    color: blue;
+    background-color: bisque;
+    cursor: grab;
+
+}
+
 .btn {
     padding: 10px 45px;
     border-radius: 5px;
@@ -25,28 +32,10 @@
     cursor: pointer;
 }
 
-
-.btn3 {
-    padding: 10px 5px;
-    border-radius: 5px;
-    border: none;
-    background-color: #469165;
-    font-size: 16px;
-    font-weight: 600;
-    color: #FFFFFF;
-    cursor: pointer;
-}
-
-.btn4 {
-    padding: 10px 5px;
-    border-radius: 5px;
-    border: none;
-    background-color: #469165;
-    font-size: 16px;
-    font-weight: 600;
-    color: #FFFFFF;
-    cursor: pointer;
-    margin-bottom: 20px;
+.btn2:hover {
+    background-color: darksalmon;
+    color: blueviolet;
+    cursor: grab;
 }
 
 .btn2 {
@@ -64,6 +53,40 @@
 
 }
 
+.btn3:hover {
+    color: aqua;
+    background-color: #F95555;
+    cursor: grab;
+}
+
+.btn3 {
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #469165;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn4:hover {
+    color: chocolate;
+    background-color: cyan;
+    cursor: grab;
+}
+
+.btn4 {
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #469165;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
 
 .color-green {
     color: #469165;
@@ -155,6 +178,7 @@ header {
 #hero {
     width: 1140px;
     margin: 0 auto;
+    align-items: center;
 }
 
 .hero-content {
@@ -180,6 +204,8 @@ header {
 
 }
 
+
+
 .card {
     max-width: 1140px;
     margin: 0 auto;
@@ -196,11 +222,10 @@ header {
     padding: 24px;
     border-radius: 10px;
     background-color: #FFFFFF;
-    text-align: center;
-    align-items: center;
+    /* text-align: center; */
+    /* align-items: center; */
     margin-bottom: 30px;
-    box-shadow: 4px 0 4px #00000025;
-    /* margin-bottom: 0px; */
+    box-shadow: 0 4px 4px #00000025;
 }
 
 .card-image {
@@ -292,7 +317,8 @@ header {
     text-align: center;
     background-color: #FFF8FF;
     border: none;
-    border-radius: 10px; padding: 50px 40px;
+    border-radius: 10px;
+    padding: 50px 40px;
 
 
 }
@@ -313,4 +339,37 @@ header {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
+}
+
+#footer {
+    border: none;
+    background-color: #363e41;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    height: px;
+
+
+    border: none;
+
+}
+
+.footer-container h4 {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.footer-container a {
+    gap: 10px;
+}
+
+.text-p {
+    height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 50px;
 }
